@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+.gallery{
+	padding: 80px 0;
+}
+.gallery img{
+	width: 100%;
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+.gallery-item:hover{
+	filter: brightness(75%);
+}
+.gallery-item{
+	transition: .2s ease-in-out;
+}
+.button{
+	width: 185px;
+}
+.button:hover{
+	filter: brightness(85%);
+}
+.carousel-item {
+    height: 25rem;
+    background: white;
+}
+
+.carousel-item img {
+    width: 450px;
+	padding-left: 130px;
+}
+.carousel-caption h3{
+	color: black;
+	text-align: left;
+	margin-bottom: 30px;
+	margin-left: 20rem;
+}   
+.carousel-caption p{
+	color: black;
+	text-align: left;
+	padding-left: 20rem;
+}
+.carousel-caption button{
+	margin-top: 20px;
+}
+.iicon{
+	width: 60px;
+	height: 60px;
+	font-size: 10px;
+	opacity: 1;
+}
+.container-lg{
+	margin-top: 120px;
+}.fsize{
+	font-size: 40px;
+}
+footer{
+	height: 200px;
+}
